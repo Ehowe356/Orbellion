@@ -1,28 +1,520 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
+
+    <ImageView
+        android:id="@+id/p1maxEnergyBar"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="35dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@android:drawable/bottom_bar" />
+
+    <ImageView
+        android:id="@+id/p1energy1"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="35dp"
+        app:srcCompat="@drawable/energyfilled" />
+
+    <ImageView
+        android:id="@+id/p1energy2"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginBottom="35dp"
+        app:srcCompat="@drawable/eneryempty" />
+
+    <ImageView
+        android:id="@+id/p1energy3"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="60dp"
+        android:layout_marginBottom="35dp"
+        app:srcCompat="@drawable/eneryempty" />
+
+    <ImageView
+        android:id="@+id/p1energy4"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="90dp"
+        android:layout_marginBottom="35dp"
+        app:srcCompat="@drawable/eneryempty" />
+
+    <ImageView
+        android:id="@+id/p1energy5"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="120dp"
+        android:layout_marginBottom="35dp"
+        app:srcCompat="@drawable/eneryempty" />
+
+    <ImageView
+        android:id="@+id/p1energy6"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="150dp"
+        android:layout_marginBottom="35dp"
+        app:srcCompat="@drawable/eneryempty" />
+
+    <ImageView
+        android:id="@+id/p1energy7"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="210dp"
+        android:layout_marginBottom="35dp"
+        app:srcCompat="@drawable/eneryempty" />
+
+    <ImageView
+        android:id="@+id/p1energy8"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="180dp"
+        android:layout_marginBottom="35dp"
+        app:srcCompat="@drawable/eneryempty" />
+
+    <ImageView
+        android:id="@+id/p1energy9"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="240dp"
+        android:layout_marginBottom="35dp"
+        app:srcCompat="@drawable/eneryempty" />
+
+    <ImageView
+        android:id="@+id/p1energy10"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="270dp"
+        android:layout_marginBottom="35dp"
+        app:srcCompat="@drawable/eneryempty" />
+
+    <ImageView
+        android:id="@+id/p2maxEnergyBar"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="35dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@android:drawable/bottom_bar" />
+
+    <ImageView
+        android:id="@+id/p2energy1"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="35dp"
+        app:srcCompat="@drawable/energyfilled" />
+
+    <ImageView
+        android:id="@+id/p2energy2"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="35dp"
+        app:srcCompat="@drawable/eneryempty" />
+
+    <ImageView
+        android:id="@+id/p2energy3"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="35dp"
+        app:srcCompat="@drawable/eneryempty" />
+
+    <ImageView
+        android:id="@+id/p2energy4"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="90dp"
+        android:layout_marginTop="35dp"
+        app:srcCompat="@drawable/eneryempty" />
+
+    <ImageView
+        android:id="@+id/p2energy5"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="35dp"
+        app:srcCompat="@drawable/eneryempty" />
+
+    <ImageView
+        android:id="@+id/p2energy6"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="35dp"
+        app:srcCompat="@drawable/eneryempty" />
+
+    <ImageView
+        android:id="@+id/p2energy7"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="180dp"
+        android:layout_marginTop="35dp"
+        app:srcCompat="@drawable/eneryempty" />
+
+    <ImageView
+        android:id="@+id/p2energy8"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="210dp"
+        android:layout_marginTop="35dp"
+        app:srcCompat="@drawable/eneryempty" />
+
+    <ImageView
+        android:id="@+id/p2energy9"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="240dp"
+        android:layout_marginTop="35dp"
+        app:srcCompat="@drawable/eneryempty" />
+
+    <ImageView
+        android:id="@+id/p2energy10"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="270dp"
+        android:layout_marginTop="35dp"
+        app:srcCompat="@drawable/eneryempty" />
+
+    <Button
+        android:id="@+id/p2add"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="100dp"
+        android:text="add" />
+
+    <Button
+        android:id="@+id/p2sub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="87dp"
+        android:text="sub" />
+
+    <Button
+        android:id="@+id/p1add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="28dp"
+        android:layout_marginBottom="84dp"
+        android:text="add" />
+
+    <Button
+        android:id="@+id/p1sub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="87dp"
+        android:layout_marginBottom="82dp"
+        android:text="sub" />
+
+    <ImageView
+        android:id="@+id/p1h1"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="200dp"
+        app:srcCompat="@drawable/ic_launcher_background" />
+
+    <ImageView
+        android:id="@+id/p1h2"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="200dp"
+        app:srcCompat="@drawable/ic_launcher_background" />
+
+    <ImageView
+        android:id="@+id/p1h3"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="250dp"
+        android:layout_marginTop="200dp"
+        app:srcCompat="@drawable/ic_launcher_background" />
+
+    <ImageView
+        android:id="@+id/p2h1"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginBottom="200dp"
+        app:srcCompat="@drawable/ic_launcher_background" />
+
+    <ImageView
+        android:id="@+id/p2h2"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="150dp"
+        android:layout_marginBottom="200dp"
+        app:srcCompat="@drawable/ic_launcher_background" />
+
+    <ImageView
+        android:id="@+id/p2h3"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="250dp"
+        android:layout_marginBottom="200dp"
+        app:srcCompat="@drawable/ic_launcher_background" />
 
     <Button
         android:id="@+id/turn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="turn"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent" />
+        android:layout_centerInParent="true"
+        android:text="turn" />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <ImageView
+        android:id="@+id/p1h1add"
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="203dp"
+        app:srcCompat="@drawable/plus_icon_21715" />
+
+    <ImageView
+        android:id="@+id/p1h2add"
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="175dp"
+        android:layout_marginTop="203dp"
+        app:srcCompat="@drawable/plus_icon_21715" />
+
+    <ImageView
+        android:id="@+id/p1h3add"
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="202dp"
+        android:layout_marginEnd="120dp"
+        app:srcCompat="@drawable/plus_icon_21715" />
+
+    <ImageView
+        android:id="@+id/p2h1add"
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="74dp"
+        android:layout_marginBottom="246dp"
+        app:srcCompat="@drawable/plus_icon_21715" />
+
+    <ImageView
+        android:id="@+id/p2h2add"
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="173dp"
+        android:layout_marginBottom="248dp"
+        app:srcCompat="@drawable/plus_icon_21715" />
+
+    <ImageView
+        android:id="@+id/p2h3add"
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="119dp"
+        android:layout_marginBottom="248dp"
+        app:srcCompat="@drawable/plus_icon_21715" />
+
+    <ImageView
+        android:id="@+id/p1h1minus"
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="247dp"
+        app:srcCompat="@drawable/minus" />
+
+    <ImageView
+        android:id="@+id/p1h2minus"
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="173dp"
+        android:layout_marginTop="248dp"
+        app:srcCompat="@drawable/minus" />
+
+    <ImageView
+        android:id="@+id/p1h3minus"
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="248dp"
+        android:layout_marginEnd="121dp"
+        app:srcCompat="@drawable/minus" />
+
+    <ImageView
+        android:id="@+id/p2h1minus"
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="72dp"
+        android:layout_marginBottom="200dp"
+        app:srcCompat="@drawable/minus" />
+
+    <ImageView
+        android:id="@+id/p2h2minus"
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="174dp"
+        android:layout_marginBottom="200dp"
+        app:srcCompat="@drawable/minus" />
+
+    <ImageView
+        android:id="@+id/p2h3minus"
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="120dp"
+        android:layout_marginBottom="200dp"
+        app:srcCompat="@drawable/minus" />
+
+    <TextView
+        android:id="@+id/p1h1health"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="150dp"
+        android:layout_marginBottom="221dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/p1h2health"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="51dp"
+        android:layout_marginBottom="223dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/p1h3health"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="253dp"
+        android:layout_marginBottom="223dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/p2h1health"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="52dp"
+        android:layout_marginBottom="489dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/p2h2health"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="151dp"
+        android:layout_marginBottom="489dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/p2h3health"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="252dp"
+        android:layout_marginBottom="488dp"
+        android:text="TextView" />
+
+</android.widget.RelativeLayout>
